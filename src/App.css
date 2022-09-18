@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'poppins';
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.App {
+    width: 550px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    height: 65px;
+    background: linear-gradient(90deg, #672289 1.18%, #a626d3 100%);
+    color: white;
+    padding: 20px;
+    width: 100%;
+}
+.header-img {
+    height: 100%;
+    margin-right: 6px;
+}
+.header-title {
+    font-size: 1.25rem;
+    margin-right: auto;
+}
+.header-project {
+    font-size: .75rem;
+    font-weight: 500;
+}
